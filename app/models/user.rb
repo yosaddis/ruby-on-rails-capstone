@@ -6,6 +6,6 @@ class User < ApplicationRecord
 
   has_many :category
   has_many :transaction, foreign_key: :user_id
-  
+
   validates :name, presence: true
 end

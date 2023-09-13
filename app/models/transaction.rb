@@ -4,6 +4,6 @@ class Transaction < ApplicationRecord
   has_many :category, through: :category_transaction
 
   validates_presence_of :name, :amount
-  validates :amount, presence: true, numericality: { greater_than: 0}
+  validates :amount, presence: true, numericality: { greater_than: 0 }
   validates :amount, presence: true
 end
