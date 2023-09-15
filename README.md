@@ -27,7 +27,7 @@
 **Expense Tracker** is the Capstone project for the module Rails. It is a mobile application that allows the user to:
 
 - Register and login, so that the data is private to them.
-- Introduce new transactions associated with a category.
+- Introduce new expenses associated with a category.
 - See the money spent on each category.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -61,7 +61,7 @@
 ### Key Features <a name="key-features"></a>
 
 - Register and login, so that the data is private to them.
-- Introduce new transactions associated with a category.
+- Introduce new expenses associated with a category.
 - See the money spent on each category.
 
 <p align="right"><a href="#readme-top">👆</a></p>
