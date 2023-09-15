@@ -1,0 +1,29 @@
+<%= stylesheet_link_tag "expenses" %>
+<div class='navbar navbar-login'>
+  <%= link_to 'Back', category_index_path, class: 'back-link' %>
+  <h2 style="color: white; background-color: transparent;">EXPENSES</h2>
+  <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "sign_out text_white" %>
+</div>
+
+<section class="product-section">
+  <div class='icon-container'>
+    <img src="<%= @category.icon %>" class="category-icon">
+    <h2 class="text_white"><%= @category.name %></h2>
+  </div>
+
+  <div class="exchanges">
+    <% if @expenses.length == 0 %>
+      <p class="empty_data text-center">No expense yet. Add a new one!!!</p>
+    <% else %>
+      <% @expenses.each do |expense| %>
+        <%= render expense %>
+      <% end %>
+    <% end %>
+  </div>
+
+  <div class="total_txt text-center">TOTAL: $<%=@category.total_amount%> </div>
+
+  <div class="new_category_btn">
+    <%= link_to "New expense", new_category_expense_path(@category), class: "btn btn-primary add_categ_btn" %>
+  </div>
+</section>

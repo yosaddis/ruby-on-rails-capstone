@@ -1,0 +1,27 @@
+<div class="forms_section">
+  <%= bootstrap_form_with(model: expense, url: category_expense_index_path) do |form| %>
+    <% if expense.errors.any? %>
+      <div style="color: red">
+        <h2><%= pluralize(expense.errors.count, "error") %> prohibited this exchange from being saved:</h2>
+
+        <ul>
+          <% expense.errors.each do |error| %>
+            <li><%= error.full_message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="field">
+      <%= form.text_field :name, placeholder: "Enter the expense's name" %>
+    </div>
+
+    <div class="field">
+      <%= form.number_field :amount, min: 0, placeholder: "Enter the expense's amount" %>
+    </div>
+
+    <div class="field btn-expense">
+      <%= form.submit 'Add New expense', class: "btn btn-primary bg_col_blue new_expense_btn" %>
+    </div>
+  <% end %>
+</div>

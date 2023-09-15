@@ -1,0 +1,14 @@
+<%= stylesheet_link_tag "expenses" %>
+<div class='navbar navbar-login'>
+  <%= link_to category_expense_index_path, class: "back_btn text_white" do %>
+    <span class="back">&#8701;</span>
+  <% end %>
+  <h2 style="color: white; background-color: transparent;">expenseS</h2>
+  <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "sign_out text_white" %>
+</div>
+<section class="new_product">
+  <h2 class="expense-header">Create New expense</h2>
+  <div class="center">
+    <%= render "form", expense: @expense %>
+  </div>
+</section>
