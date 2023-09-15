@@ -7,5 +7,9 @@
   },
   "dependencies": {
     "yarn": "^1.22.19"
+  },
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
+    "build:css": "echo eskipped"
   }
 }
