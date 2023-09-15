@@ -82,6 +82,4 @@ test:
 #
 production:
   <<: *default
-  database: ror_capstone_production
-  username: postgres
-  password: abc@123
+  url: <%= ENV['DATABASE_URL'] %>
