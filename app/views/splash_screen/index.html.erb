@@ -1,9 +1,9 @@
-<%=stylesheet_link_tag 'splash_screen' %>
-<div class='container'>
+<%= stylesheet_link_tag 'splash_screen' %>
+<div class='splash-wrapper'>
     <h1> Expense Tracker App</h1>
 
-    <div>
-        <%= link_to 'Login', user_session_path, class: 'btn btn-primary'%>
+    <div class='buttons'>
+        <%= link_to 'Login', user_session_path, class: 'btn button-login'%>
         <%= link_to 'Sign up', new_user_registration_path, class: 'btn '%>
     </div>
 </div>
