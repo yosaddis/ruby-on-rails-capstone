@@ -1,7 +1,7 @@
 class Category < ApplicationRecord
   belongs_to :user
-  has_many :category_transaction
-  has_many :transaction, through: :category_transaction
+  has_many :category_expense
+  has_many :expense, through: :category_expense
 
   validates_presence_of :user
   validates :name, presence: true
@@ -9,8 +9,8 @@ class Category < ApplicationRecord
 
   def total_amount
     total = 0
-    transaction.each do |transaction|
-      total += transaction.amount
+    expense.each do |expense|
+      total += expense.amount
     end
     total
   end

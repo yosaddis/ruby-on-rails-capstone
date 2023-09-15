@@ -4,8 +4,8 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  # has_many :category
-  # has_many :transaction, foreign_key: :author_id
+  has_many :category
+  has_many :expense, foreign_key: :user_id
 
   validates :name, presence: true
 end

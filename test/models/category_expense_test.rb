@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class CategoryTransactionTest < ActiveSupport::TestCase
+class CategoryExpensesTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
