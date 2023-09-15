@@ -2,8 +2,8 @@
 
 one:
   category: one
-  transaction: one
+  expense: one
 
 two:
   category: two
-  transaction: two
+  expense: two
