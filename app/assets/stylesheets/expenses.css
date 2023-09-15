@@ -1,0 +1,66 @@
+* {
+    background-color: transparent;
+  }
+  
+  .icon-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .expense-section {
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px #d8d8d8;
+    margin: 20px;
+  }
+  
+  .category-icon {
+    width: 40%;
+    background-color: white;
+  }
+  
+  .icon-container h2 {
+    background-color: white;
+    text-align: center;
+  }
+  
+  .new_category_btn {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .transaction-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .center {
+    margin: 50px;
+  }
+  
+  .btn-transaction {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  hr {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .expense {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
