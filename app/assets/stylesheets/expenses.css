@@ -92,6 +92,7 @@ hr {
 }
 
 .new_category_btn {
+  display: flex;
   margin: 0 0 0 0;
   padding: 0;
   bottom: 0;
