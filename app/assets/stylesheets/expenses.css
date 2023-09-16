@@ -17,11 +17,9 @@
   background-color: white;
   display: flex;
   flex-direction: row;
-
   justify-content: space-between;
   box-shadow: 2px 2px 2px 1px #d8d8d8;
 }
-
 
 .expense-section {
   background-color: white;
@@ -37,13 +35,6 @@
 .icon-container h2 {
   background-color: white;
   text-align: center;
-}
-
-.new_category_btn {
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .transaction-header {
@@ -78,22 +69,21 @@ hr {
 
 /** BUTTONS **/
 .green_btn_div {
-  margin: 0px 0px 0px 0px;
-  padding: 0px;
-  bottom: 0px;
+  margin: 0 0 0 0;
+  padding: 0;
+  bottom: 0;
   justify-content: center;
   align-items: baseline;
-  background-color: #5FB523;
+  background-color: #5fb523;
   z-index: 300;
-  position:fixed;
+  position: fixed;
   width: 100%;
-
 }
 
 .fcc-btn {
-  background-color: #5FB523;
+  background-color: #5fb523;
   color: white;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0 10px 0;
   margin: 10px 10px 10px 10px;
   text-decoration: none;
   text-align: center;
@@ -102,15 +92,14 @@ hr {
 }
 
 .new_category_btn {
-  margin: 0px 0px 0px 0px;
-  padding: 0px;
-  bottom: 0px;
-  left: 0px;
+  margin: 0 0 0 0;
+  padding: 0;
+  bottom: 0;
+  left: 0;
   justify-content: center;
   align-items: baseline;
-  background-color: #5FB523;
+  background-color: #5fb523;
   z-index: 300;
-  position:fixed;
+  position: fixed;
   width: 100%;
-
 }
