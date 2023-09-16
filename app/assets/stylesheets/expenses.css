@@ -11,6 +11,18 @@
   background-color: white;
 }
 
+.total {
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px 1px #d8d8d8;
+}
+
+
 .expense-section {
   background-color: white;
   box-shadow: 2px 2px 2px 1px #d8d8d8;
@@ -62,4 +74,43 @@ hr {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+/** BUTTONS **/
+.green_btn_div {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  bottom: 0px;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #5FB523;
+  z-index: 300;
+  position:fixed;
+  width: 100%;
+
+}
+
+.fcc-btn {
+  background-color: #5FB523;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  margin: 10px 10px 10px 10px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid white;
+  width: 95%;
+}
+
+.new_category_btn {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  bottom: 0px;
+  left: 0px;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #5FB523;
+  z-index: 300;
+  position:fixed;
+  width: 100%;
+
 }

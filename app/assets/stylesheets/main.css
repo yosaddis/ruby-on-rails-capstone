@@ -33,3 +33,28 @@ body {
   text-decoration: none;
   color: white;
 }
+
+/** BUTTONS **/
+.green_btn_div {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  bottom: 0px;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #5FB523;
+  z-index: 300;
+  position:fixed;
+  width: 100%;
+
+}
+
+.fcc-btn {
+  background-color: #5FB523;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  margin: 10px 10px 10px 10px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid white;
+  width: 95%;
+}

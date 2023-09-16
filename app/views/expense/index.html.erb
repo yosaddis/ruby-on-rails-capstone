@@ -4,6 +4,9 @@
   <h2 style="color: white; background-color: transparent;">EXPENSES</h2>
   <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "sign_out text_white" %>
 </div>
+ <div class="total">
+    <h4>TOTAL</h4> <strong> $<%=@category.total_amount%></strong> 
+ </div>
 
 <section class="product-section">
   <div class='icon-container'>
@@ -21,9 +24,8 @@
     <% end %>
   </div>
 
-  <div class="total_txt text-center">TOTAL: $<%=@category.total_amount%> </div>
-
+ 
   <div class="new_category_btn">
-    <%= link_to "New expense", new_category_expense_path(@category), class: "btn btn-primary add_categ_btn" %>
+    <%= link_to "New expense", new_category_expense_path(@category), class: "fcc-btn" %>
   </div>
 </section>
