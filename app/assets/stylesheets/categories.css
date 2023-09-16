@@ -1,0 +1,80 @@
+
+a {
+  text-decoration: none;
+}
+
+.green_btn_div {
+  margin: 0 0 0 0;
+  padding: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #5fb523;
+  z-index: 300;
+  position: fixed;
+  width: 100%;
+}
+
+.fcc-btn {
+  background-color: #5fb523;
+  color: white;
+  padding: 10px 0 10px 0;
+  margin: 10px 10px 10px 10px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid white;
+  width: 95%;
+}
+
+.category {
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px 1px #d8d8d8;
+}
+
+.category-icon {
+  width: 40%;
+  background-color: white;
+}
+
+* {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.add_categ_btn {
+  display: block;
+  margin: 50px;
+}
+
+.new_category_btn {
+  margin: 0 0 0 0;
+  padding: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #5fb523;
+  z-index: 300;
+  position: fixed;
+  width: 100%;
+}
+
+.new-category-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form-wrapper {
+  margin: 30px;
+}
+
+.name-container p {
+  text-decoration: none;
+  background-color: transparent;
+}

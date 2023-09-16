@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.splash-wrapper {
+  margin-top: 0;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 90%;
+  border-radius: 0;
+  padding: 1rem;
+  border: none;
+}
+
+.button-login {
+  border: 1px solid #3778c2;
+  background-color: #3778c2;
+  color: white;
+}

@@ -68,6 +68,15 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
+  gem 'rspec-rails'
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
+
+gem 'devise'
+
+gem 'bootstrap', '~> 5.3.0.alpha3'
+gem 'bootstrap_form', '~> 5.2'
+gem 'font-awesome-sass', '~> 6.4.0'
+
+gem 'cssbundling-rails', '~> 1.2'
